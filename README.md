@@ -1,40 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
+# KnowLupus API
 
-## Getting Started
+A modern API documentation platform built with Next.js and Scalar, designed to provide comprehensive documentation for the KnowLupus application's API endpoints.
 
-First, run the development server:
+## 🚀 Features
+
+- Interactive API documentation
+- Built with Next.js 15.2
+- TypeScript support
+- Powered by Scalar API Reference
+- Modern and responsive design
+- Developer-friendly interface
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Node.js (v18 or higher recommended)
+- pnpm (recommended) or npm
+
+## 🛠️ Installation
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/knowlupus-api.git
+cd knowlupus-api
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/route.ts`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-## Learn More
+## 🏃‍♂️ Development
 
-To learn more about Next.js, take a look at the following resources:
+To start the development server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application will be available at `http://localhost:3000`.
 
-## Deploy on Vercel
+## 🏗️ Building for Production
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To create a production build:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm build
+```
 
-## API Routes
+To start the production server:
 
-This directory contains example API routes for the headless API app.
+```bash
+pnpm start
+```
 
-For more details, see [route.js file convention](https://nextjs.org/docs/app/api-reference/file-conventions/route).
+## 🔧 Tech Stack
+
+- [Next.js](https://nextjs.org/) - React framework for production
+- [TypeScript](https://www.typescriptlang.org/) - Static type checking
+- [@scalar/nextjs-api-reference](https://github.com/scalar/scalar) - API documentation framework
+
+## 📁 Project Structure
+
+```
+knowlupus-api/
+├── src/              # Source files
+├── .next/           # Next.js build output
+├── node_modules/    # Dependencies
+├── next.config.ts   # Next.js configuration
+└── tsconfig.json    # TypeScript configuration
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👥 Authors
+
+- Initial work - [Your Name]
+
+## 🙏 Acknowledgments
+
+- [Scalar](https://github.com/scalar/scalar) for their excellent API documentation framework
+- [Next.js](https://nextjs.org/) team for the amazing framework
+
+---
+
+Made with ❤️ for the KnowLupus community
