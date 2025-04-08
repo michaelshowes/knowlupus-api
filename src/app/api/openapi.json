@@ -54,6 +54,7 @@
 							},
 							"question": { "type": "string" },
 							"type": { "const": "multiple_choice" },
+							"response": { "type": "string" },
 							"answers": {
 								"type": "array",
 								"items": { "$ref": "#/components/schemas/Answer" }
@@ -73,6 +74,7 @@
 							},
 							"question": { "type": "string" },
 							"type": { "const": "true_false" },
+							"response": { "type": "string" },
 							"is_true": { "type": "boolean" }
 						}
 					},
@@ -89,6 +91,7 @@
 							},
 							"question": { "type": "string" },
 							"type": { "const": "range" },
+							"response": { "type": "string" },
 							"maximum": { "type": "number" },
 							"minimum": { "type": "number" },
 							"step_amount": { "type": "number" },
