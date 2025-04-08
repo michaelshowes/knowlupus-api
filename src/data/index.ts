@@ -51,6 +51,8 @@ export default [
 						type: 'multiple_choice',
 						question:
 							'Lupus is an unpredictable autoimmune disease that can affect the:',
+						response:
+							'The ability of lupus to affect a person’s heart, kidney, lungs, or skin, are part of what makes it so challenging to understand, diagnose and treat.',
 						answers: [
 							{
 								id: '20447',
@@ -83,6 +85,8 @@ export default [
 						type: 'multiple_choice',
 						question:
 							'As many as two-thirds of people with lupus experience a sensitivity to: ',
+						response:
+							'Sensitivity to UV light (present in both sunlight and artificial light) affects as many as two thirds of individuals with lupus. This is known to cause fever, debilitating fatigue, joint pain, and rashes.',
 						answers: [
 							{
 								id: '20464',
@@ -115,6 +119,8 @@ export default [
 						type: 'true_false',
 						question:
 							' Factors that trigger a lupus flare, or intensified period of symptoms, include infection, ultraviolet light, stress, and some medications.',
+						response:
+							'Additional triggers for lupus flares include the environment, genes, and factors that are still unknown.',
 						is_true: true
 					},
 					{
@@ -125,6 +131,8 @@ export default [
 						},
 						type: 'true_false',
 						question: 'During a flare, lupus may be contagious',
+						response:
+							'Lupus is never contagious. It cannot be “caught” or “passed on” to anyone, no matter what symptoms are showing.',
 						is_true: true
 					},
 					{
@@ -136,6 +144,8 @@ export default [
 						type: 'range',
 						question:
 							'Women make up what percentage of the total population with lupus?',
+						response:
+							'Though men and children can also develop lupus, 90% of people with lupus are women, and they most commonly develop symptoms between the ages of 15 and 44.',
 						minimum: 0,
 						maximum: 100,
 						step_amount: 10,
@@ -231,6 +241,7 @@ export default [
 						},
 						type: 'true_false',
 						question: 'Is this true or false',
+						response: 'It is true',
 						is_true: true
 					},
 					{
@@ -241,6 +252,7 @@ export default [
 						},
 						type: 'range',
 						question: 'What percent of this thing is this',
+						response: '50%',
 						minimum: 1,
 						maximum: 100,
 						step_amount: 10,
@@ -255,6 +267,7 @@ export default [
 						},
 						type: 'multiple_choice',
 						question: 'Question',
+						response: 'Test',
 						answers: [
 							{
 								id: '20454',
@@ -321,6 +334,8 @@ export default [
 						type: 'multiple_choice',
 						question:
 							' Lupus is an unpredictable autoimmune disease that can affect the:',
+						response:
+							'The ability of lupus to affect a person’s heart, kidney, lungs, or skin, are part of what makes it so challenging to understand, diagnose and treat.',
 						answers: [
 							{
 								id: '20447',
@@ -353,6 +368,8 @@ export default [
 						type: 'multiple_choice',
 						question:
 							'As many as two-thirds of people with lupus experience a sensitivity to:',
+						response:
+							'Sensitivity to UV light (present in both sunlight and artificial light) affects as many as two thirds of individuals with lupus. This is known to cause fever, debilitating fatigue, joint pain, and rashes.',
 						answers: [
 							{
 								id: '20464',
@@ -385,6 +402,8 @@ export default [
 						type: 'true_false',
 						question:
 							' Factors that trigger a lupus flare, or intensified period of symptoms, include infection, ultraviolet light, stress, and some medications.',
+						response:
+							'Additional triggers for lupus flares include the environment, genes, and factors that are still unknown.',
 						is_true: true
 					},
 					{
@@ -395,6 +414,8 @@ export default [
 						},
 						type: 'true_false',
 						question: 'During a flare, lupus may be contagious',
+						response:
+							'Lupus is never contagious. It cannot be “caught” or “passed on” to anyone, no matter what symptoms are showing.',
 						is_true: true
 					},
 					{
@@ -406,10 +427,13 @@ export default [
 						type: 'range',
 						question:
 							'Women make up what percentage of the total population with lupus?',
+						response:
+							'Though men and children can also develop lupus, 90% of people with lupus are women, and they most commonly develop symptoms between the ages of 15 and 44.',
 						minimum: 0,
 						maximum: 100,
 						step_amount: 10,
 						answer_value: 90,
+						fuzzy: true,
 						suffix: '%'
 					}
 				],

@@ -39,6 +39,7 @@ type Question = {
 		slug: string;
 	};
 	question: string;
+	response: string;
 } & (
 	| {
 			type: 'multiple_choice';
@@ -54,6 +55,7 @@ type Question = {
 			minimum: number;
 			step_amount: number;
 			answer_value: number;
+			fuzzy?: boolean;
 			suffix: string;
 	  }
 );
