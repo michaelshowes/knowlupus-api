@@ -92,5 +92,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Next.js](https://nextjs.org/) team for the amazing framework
 
 ---
-
-Made with ❤️ for the KnowLupus community
