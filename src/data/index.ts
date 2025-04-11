@@ -622,7 +622,10 @@ export default [
 						minimum: 0,
 						maximum: 50,
 						step_amount: 10,
-						answer_value: 15
+						answer_value: 15,
+						answer_text: '10-20',
+						fuzzy: true,
+						suffix: '%'
 					},
 					{
 						id: '20513',
