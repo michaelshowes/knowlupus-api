@@ -193,7 +193,8 @@ export default [
 						minimum: 0,
 						maximum: 10,
 						step_amount: 1,
-						answer_value: 6
+						answer_value: 6,
+						suffix: 'years'
 					},
 					{
 						id: '20479',
