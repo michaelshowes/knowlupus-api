@@ -58,7 +58,8 @@ type Question = {
 			answer_value: number;
 			answer_text?: string;
 			fuzzy?: boolean;
-			suffix: string;
+			prefix?: string;
+			suffix?: string;
 	  }
 );
 
