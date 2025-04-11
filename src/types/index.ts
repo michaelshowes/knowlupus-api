@@ -1,7 +1,7 @@
 export type Quiz = {
 	id: string;
 	name: string;
-	lupus_quizzes_id: string;
+	lupus_quizzes_id: number;
 	donate_button: Link;
 	nav_links: Link;
 	sponsors: Sponsor[];
@@ -24,7 +24,7 @@ type Sponsor = {
 
 type Level = {
 	id: string;
-	lupus_quizzes_id: string;
+	lupus_quizzes_id: number;
 	name: string;
 	intro_title: string;
 	intro_text: string;
@@ -39,7 +39,8 @@ type Question = {
 		slug: string;
 	};
 	question: string;
-	response: string;
+	answer_card_text: string;
+	image: Image;
 } & (
 	| {
 			type: 'multiple_choice';
@@ -47,7 +48,7 @@ type Question = {
 	  }
 	| {
 			type: 'true_false';
-			is_true: boolean;
+			is_true: 0 | 1;
 	  }
 	| {
 			type: 'range';
@@ -63,7 +64,7 @@ type Question = {
 type Answer = {
 	id: string;
 	answer: string;
-	is_correct?: boolean;
+	is_correct?: 0 | 1;
 };
 
 type CTA = {
