@@ -207,7 +207,7 @@ export default [
 						maximum: 10,
 						step_amount: 1,
 						answer_value: 6,
-						suffix: 'years'
+						suffix: ' years'
 					},
 					{
 						id: '20479',
