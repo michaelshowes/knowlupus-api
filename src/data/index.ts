@@ -19,16 +19,29 @@ export default [
 		},
 		sponsors: [
 			{
-				id: '20449',
+				id: '20459',
 				image_media: {
-					url: 'https://www.feature-knowlupus-pul6g7y-3766fnoancpni.us-4.platformsh.site/sites/default/files/media/images/Support%20Group%20General_1.jpg',
-					alt: 'Support Group'
+					alt: 'Support Group ',
+					url: 'https://www.feature-knowlupus-pul6g7y-3766fnoancpni.us-4.platformsh.site/sites/default/files/media/images/Support%20Group%20General_1.jpg'
 				},
 				field_link: {
-					uri: 'entity:node/11',
+					uri: 'entity:node/13',
 					title: '',
 					options: [],
-					url: '/living-with-lupus'
+					url: '/get-involved'
+				}
+			},
+			{
+				id: '20460',
+				image_media: {
+					alt: 'Support Group ',
+					url: 'https://www.feature-knowlupus-pul6g7y-3766fnoancpni.us-4.platformsh.site/sites/default/files/media/images/Support%20Group%20Columbus.jpg'
+				},
+				field_link: {
+					uri: 'https://google.com',
+					title: '',
+					options: [],
+					url: 'https://google.com'
 				}
 			}
 		],
@@ -37,7 +50,7 @@ export default [
 			{
 				id: '1',
 				lupus_quizzes_id: 1,
-				name: 'Level One',
+				name: 'One',
 				intro_title: 'Get Involved',
 				intro_text:
 					"<p>Pledge to Raise Awareness About Lupus All Year Long</p><p>May is Lupus Awareness Month and it's just the beginning of how you can MAKE LUPUS VISIBLE. Pledge to raise awareness all year long and we'll send you lots of great online resources and tools to get started.&nbsp;</p>",
@@ -355,7 +368,7 @@ export default [
 			{
 				id: '2',
 				lupus_quizzes_id: 2,
-				name: 'Level Two',
+				name: 'Two',
 				intro_title: 'Get Involved',
 				intro_text:
 					"<p>Pledge to Raise Awareness About Lupus All Year Long</p><p>May is Lupus Awareness Month and it's just the beginning of how you can MAKE LUPUS VISIBLE. Pledge to raise awareness all year long and we'll send you lots of great online resources and tools to get started.&nbsp;</p>",
@@ -563,7 +576,7 @@ export default [
 			{
 				id: '3',
 				lupus_quizzes_id: 3,
-				name: 'Level Three',
+				name: 'Three',
 				intro_title: 'Get Involved',
 				intro_text:
 					"<p>Pledge to Raise Awareness About Lupus All Year Long</p><p>May is Lupus Awareness Month and it's just the beginning of how you can MAKE LUPUS VISIBLE. Pledge to raise awareness all year long and we'll send you lots of great online resources and tools to get started.&nbsp;</p>",
