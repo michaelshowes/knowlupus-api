@@ -220,31 +220,11 @@ export default [
 							url: '/images/questions/6.png',
 							alt: 'Lupus'
 						},
-						question: 'What is lupus-related kidney disease called?',
+						question:
+							'Going on a reduced carb diet — like a paleo or gluten - free diet—can cure lupus, or cause it to go into remission.',
 						answer_card_text:
-							'Lupus-related kidney disease is called lupus nephritis and is one of the most serious complications of lupus. It occurs when the immune system mistakenly attacks the kidneys, leading to inflammation, possible organ damage and even kidney failure requiring dialysis or a kidney transplant.',
-						answers: [
-							{
-								id: '20480',
-								answer: 'Inflammatory Kidney',
-								is_correct: 0
-							},
-							{
-								id: '20481',
-								answer: 'Lupus Nephritis',
-								is_correct: 1
-							},
-							{
-								id: '20482',
-								answer: 'Kidney Stones',
-								is_correct: 0
-							},
-							{
-								id: '20483',
-								answer: 'Kidney Nephrology',
-								is_correct: 0
-							}
-						]
+							'No special diet has been found to cure lupus or cause it to go into remission.',
+						is_true: true
 					},
 					{
 						id: '20484',
