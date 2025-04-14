@@ -215,7 +215,7 @@ export default [
 							name: 'The Symptoms',
 							slug: 'symptoms'
 						},
-						type: 'multiple_choice',
+						type: 'true_false',
 						image: {
 							url: '/images/questions/6.png',
 							alt: 'Lupus'
